@@ -1,0 +1,28 @@
+﻿{
+  "name": "@qithonic/dsh-plugin-subway-subtitles",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: Real-time Chinese (and future English) live subtitles for mobile video watching.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client/index.tsx"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis"
+  ],
+  "dsh": {
+    "bundle": "./src/index.ts",
+    "client": "./src/client/index.tsx"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  }
+}

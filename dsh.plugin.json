@@ -1,0 +1,8 @@
+﻿{
+  "name": "dsh-plugin-subway-subtitles",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: Real-time Chinese (and future English) live subtitles for mobile video watching.",
+  "entry": "./src/index.ts",
+  "client": "./src/client/index.tsx",
+  "tags": ["dsh-plugin", "deepseek-harness"]
+}
